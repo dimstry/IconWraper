@@ -1,0 +1,34 @@
+.icons-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  display:inline-block;
+  font-size: 44px;
+  animation:float 5s ease-in-out infinite;
+}
+.fa-instagram{
+  color:pink;
+}
+  
+.fa-facebook{
+  animation-delay: 1s;
+  margin: 10px;
+  color: blue;
+}
+.fa-whatsapp{
+  animation-delay: 2s;
+  color:green;
+}
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(50px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
